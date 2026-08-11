@@ -101,20 +101,25 @@ const int activeAngle = 45;
 ```
 
 This configuration will activate the system when an object is **15 cm or closer** and move the servo to **45°**.
-## Implementation
+## Implementation & Demo
 
-The project was completed in two stages:
+### Tinkercad Simulation
 
-**1. Simulation**
+The circuit and control logic were first designed and tested using Tinkercad.
 
-The circuit and control logic were first designed and validated using Tinkercad.
+<p align="center">
+  <img src="images/tinkercad_circuit.png" width="750">
+</p>
 
-**2. Hardware Implementation**
+▶️ [Watch Tinkercad Simulation Demo](demos/tinkercad_demo.mp4)
 
-The same system was then implemented using physical components. The ultrasonic sensor successfully detected nearby objects, while the servo motor and LED responded according to the programmed distance threshold.
+### Hardware Implementation
 
-## Result
+The system was then implemented and successfully tested using physical hardware.
 
-The completed system successfully demonstrates real-time interaction between a sensor and actuator.
+<p align="center">
+  <img src="images/hardware_implementation.jpg" width="750">
+</p>
 
-When an object enters the defined detection range, the system automatically responds by changing the servo position and activating the LED. When the object moves away, both outputs return to their normal state.
+▶️ [Watch Hardware Demo](demos/hardware_demo.mp4)
+
